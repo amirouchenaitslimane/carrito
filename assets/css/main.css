@@ -1,0 +1,276 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    font-weight:400;
+}
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+
+}
+.navbar-default{
+    background-color: #000000b3;
+    border-color: #e7e7e7;
+    border-style: none;
+    border-radius: inherit
+}
+.navbar-default .navbar-brand {
+    color: #fbfbfb;
+    font-size: 35px;
+}
+.navbar-default .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover{
+    background: #34acc6;
+    color: #fff;
+}
+
+
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav{border-style: none;}
+    .navbar-nav > li > a {
+        /* (80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+    }
+}
+/**
+================Login
+ */
+#btn-login{
+    background: #34acc6;
+    color: #fff;
+}
+.error{
+    background: red;
+    color: #FFFFFF;
+
+}
+.error li{
+    font-size: 18px;
+    padding-bottom: 22px;
+    font-weight: bold
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================SINGLE PRODUCTO=======*/
+.single-products {
+    position: relative;
+}
+.product-image-wrapper {
+    border: 1px solid #F7F7F5;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+/*
+
+ */
+.product-image-wrapper{
+    border:1px solid #F7F7F5;
+    overflow: hidden;
+    margin-bottom:30px;
+}
+
+.single-products {
+    position: relative;
+}
+
+.new, .sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.productinfo h2{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.product-overlay h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.productinfo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00d2ff;
+}
+
+.productinfo img{
+    width: 100%;
+}
+
+.productinfo{
+    position:relative;
+}
+
+.product-overlay {
+    background:#00d2ffb3;
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+
+}
+
+.single-products:hover .product-overlay {
+    display:block;
+    height:100%;
+}
+
+
+.product-overlay .overlay-content {
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.product-overlay .add-to-cart {
+    background:#fff;
+    border: 0 none;
+    border-radius: 0;
+    color: #00d2ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.product-overlay .add-to-cart:hover {
+    background:#fff;
+    color: #00d2ff;
+}
+
+
+.product-overlay p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+.add-to-cart {
+    background:#F5F5ED;
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.add-to-cart:hover {
+    background: #00d2ff;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+}
+
+.add-to{
+    margin-bottom: 10px;
+}
+
+.add-to-cart i{
+    margin-right:5px;
+}
+
+.add-to-cart:hover {
+    background: #00d2ff;
+    color: #FFFFFF;
+}
+/*========================== FIN SINGLE PRODUCTO*/
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+
+
+
+}
+@media (max-width: 430px) {
+
+}
